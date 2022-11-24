@@ -23,6 +23,10 @@ public class GreaterNumber {
         String strNumber3 = readerTheInputs.readLine();
         Integer number3 = Integer.parseInt(strNumber3);
 
+        calculateGreaterNumber(number1, number2, number3);
+    }
+
+    private static void calculateGreaterNumber(Integer number1, Integer number2, Integer number3) {
         Integer greaterNumber = number1;
 
         if (number2 > greaterNumber) {
