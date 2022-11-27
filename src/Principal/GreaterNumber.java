@@ -31,6 +31,13 @@ public class GreaterNumber {
         return number;
     }
 
+    /**
+     * This function show the greater number
+     * @param number1 First number write for the user
+     * @param number2 Second number write for the user
+     * @param number3 Third number write for the user
+     */
+
     private static void calculateGreaterNumber(Integer number1, Integer number2, Integer number3) {
         Integer greaterNumber = number1;
 
@@ -44,6 +51,13 @@ public class GreaterNumber {
         System.out.println("The greater number is: " + greaterNumber);
 
     }
+
+    /**
+     * This function show the lower number
+     * @param number1 First number write for the user
+     * @param number2 Second number write for the user
+     * @param number3 Third number write for the user
+     */
 
     private static void calculateLowerNumber(Integer number1, Integer number2, Integer number3) {
 
